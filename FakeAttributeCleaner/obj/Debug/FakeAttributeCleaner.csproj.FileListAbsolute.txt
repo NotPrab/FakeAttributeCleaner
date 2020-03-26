@@ -1,0 +1,8 @@
+E:\repos\C#\.NET Framework\Console\FakeAttributeCleaner\bin\Debug\FakeAttributeCleaner.exe.config
+E:\repos\C#\.NET Framework\Console\FakeAttributeCleaner\bin\Debug\FakeAttributeCleaner.exe
+E:\repos\C#\.NET Framework\Console\FakeAttributeCleaner\bin\Debug\FakeAttributeCleaner.pdb
+E:\repos\C#\.NET Framework\Console\FakeAttributeCleaner\bin\Debug\dnlib.dll
+E:\repos\C#\.NET Framework\Console\FakeAttributeCleaner\obj\Debug\FakeAttributeCleaner.csproj.CoreCompileInputs.cache
+E:\repos\C#\.NET Framework\Console\FakeAttributeCleaner\obj\Debug\FakeAttributeCleaner.csproj.CopyComplete
+E:\repos\C#\.NET Framework\Console\FakeAttributeCleaner\obj\Debug\FakeAttributeCleaner.exe
+E:\repos\C#\.NET Framework\Console\FakeAttributeCleaner\obj\Debug\FakeAttributeCleaner.pdb
