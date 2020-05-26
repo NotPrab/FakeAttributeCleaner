@@ -18,125 +18,139 @@ namespace FakeAttributeCleaner
 					bool flag2 = type == null;
                     if (!flag2)
                     {
-                        bool flag3 = type.FullName == "ConfusedByAttribute";
-                        if (flag3)
+                        if (type.FullName == "ConfusedByAttribute")
                         {
                             module.Types.Remove(type);
                             module.CustomAttributes.Remove(attribute);
                             j++;
                         }
-						bool flag4 = type.FullName == "ZYXDNGuarder";
-						if (flag4)
+						if (type.FullName == "ZYXDNGuarder")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag5 = type.FullName == "YanoAttribute";
-						if (flag5)
+						if (type.FullName == "YanoAttribute")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag6 = type.FullName == "Xenocode.Client.Attributes.AssemblyAttributes.ProcessedByXenocode";
-						if (flag6)
+						if (type.FullName == "Xenocode.Client.Attributes.AssemblyAttributes.ProcessedByXenocode")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag7 = type.FullName == "SmartAssembly.Attributes.PoweredByAttribute";
-						if (flag7)
+						if (type.FullName == "SmartAssembly.Attributes.PoweredByAttribute")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag8 = type.FullName == "SecureTeam.Attributes.ObfuscatedByAgileDotNetAttribute";
-						if (flag8)
+						if (type.FullName == "SecureTeam.Attributes.ObfuscatedByAgileDotNetAttribute")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag9 = type.FullName == "SecureTeam.Attributes.ObfuscatedByCliSecureAttribute";
-						if (flag9)
+						if (type.FullName == "SecureTeam.Attributes.ObfuscatedByCliSecureAttribute")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag10 = type.FullName == "ObfuscatedByGoliath";
-						if (flag10)
+						if (type.FullName == "ObfuscatedByGoliath")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag11 = type.FullName == "NineRays.Obfuscator.SoftwareWatermarkAttribute";
-						if (flag11)
+						if (type.FullName == "NineRays.Obfuscator.SoftwareWatermarkAttribute")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag12 = type.FullName == "NineRays.Obfuscator.Evaluation";
-						if (flag12)
+						if (type.FullName == "NineRays.Obfuscator.Evaluation")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag13 = type.FullName == "EMyPID_8234_";
-						if (flag13)
+						if (type.FullName == "EMyPID_8234_")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag14 = type.FullName == "DotfuscatorAttribute";
-						if (flag14)
+						if (type.FullName == "DotfuscatorAttribute")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag15 = type.FullName == "CryptoObfuscator.ProtectedWithCryptoObfuscatorAttribute";
-						if (flag15)
+						if (type.FullName == "CryptoObfuscator.ProtectedWithCryptoObfuscatorAttribute")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag16 = type.FullName == "BabelObfuscatorAttribute";
-						if (flag16)
+						if (type.FullName == "BabelObfuscatorAttribute")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag17 = type.FullName == ".NETGuard";
-						if (flag17)
+						if (type.FullName == ".NETGuard")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag18 = type.FullName == "OrangeHeapAttribute";
-						if (flag18)
+						if (type.FullName == "OrangeHeapAttribute")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
-						bool flag19 = type.FullName == "<ObfuscatedByDotNetPatcher>";
-						if (flag19)
+						if (type.FullName == "<ObfuscatedByDotNetPatcher>")
 						{
 							module.Types.Remove(type);
 							module.CustomAttributes.Remove(attribute);
 							j++;
 						}
+						if (type.FullName == "BabelObfuscatorAttribute")
+						{
+							module.Types.Remove(type);
+							module.CustomAttributes.Remove(attribute);
+							j++;
+						}
+						if (type.FullName == "ProtectedWithCryptoObfuscatorAttribute")
+						{
+							module.Types.Remove(type);
+							module.CustomAttributes.Remove(attribute);
+							j++;
+						}
+						if (type.FullName == "ObfuscatedByGoliath")
+						{
+							module.Types.Remove(type);
+							module.CustomAttributes.Remove(attribute);
+							j++;
+						}
+						if (type.FullName == "YanoAttribute")
+						{
+							module.Types.Remove(type);
+							module.CustomAttributes.Remove(attribute);
+							j++;
+						}
+						if (type.FullName == "ZYXDNGuarder")
+						{
+							module.Types.Remove(type);
+							module.CustomAttributes.Remove(attribute);
+							j++;
+						}
+												
 					}
                 }
             }
